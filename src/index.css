@@ -1,0 +1,67 @@
+/* src/index.css */
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Inter', sans-serif;
+  background-color: #f3f4f6; /* light gray background */
+  color: #111827; /* dark text */
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 2rem;
+}
+
+h1 {
+  color: #2563eb; /* blue heading */
+  margin-bottom: 1rem;
+}
+
+input, button {
+  font-family: inherit;
+  font-size: 1rem;
+}
+
+input {
+  border: 2px solid #d1d5db;
+  border-radius: 0.375rem;
+  padding: 0.5rem 0.75rem;
+  transition: border-color 0.2s ease-in-out;
+}
+
+input:focus {
+  outline: none;
+  border-color: #2563eb;
+  box-shadow: 0 0 0 3px rgba(37, 99, 235, 0.3);
+}
+
+button {
+  background-color: #2563eb;
+  color: white;
+  border: none;
+  padding: 0.5rem 1rem;
+  border-radius: 0.375rem;
+  cursor: pointer;
+  transition: background-color 0.2s ease-in-out;
+}
+
+button:hover {
+  background-color: #1d4ed8;
+}
+
+ul {
+  margin-top: 1rem;
+  list-style-type: disc;
+  padding-left: 1.25rem;
+}
+
+li {
+  margin-bottom: 0.9rem;
+}
